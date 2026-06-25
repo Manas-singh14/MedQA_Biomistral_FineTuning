@@ -39,10 +39,10 @@ Output:
 |---|---|
 | Random baseline | 25.0% |
 | BioMistral-7B (base) | ~59.0% |
-| **This model (fine-tuned)** | **~51%** | **Its less but beacause of low RAM CPU based machine ran only 1 epoc on 40% Data , accuracy can be increased using hyperparameter tuning**
+| **This model (fine-tuned)** | **~51%** | 
 
 > Evaluated on the held-out MedQA-USMLE test set (1,273 examples). The fine-tuned model shows meaningful improvement over the base model on clinical reasoning tasks.
-
+> Its less but beacause of low RAM CPU based machine ran only 1 epoc on 40% Data , accuracy can be increased using hyperparameter tuning.
 ---
 
 ## 🧠 Architecture <a name="architecture"></a>
